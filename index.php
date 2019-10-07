@@ -1,7 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles/base.css" >
-  <title>Teste Formulario</title>
+  <title>Formulário Teste</title>
 
 </head>
 <body>
@@ -9,6 +9,8 @@
   body{background-color: 90EE90;}
  font-family: verdana
  </style>
+
+CADASTRO
 <form action="/script.php" method="post">
     <div>
         <p><label for="nome">Nome:</label>
@@ -28,7 +30,7 @@
     </div>
     <div>
         <p><label for="email">E-mail:</label>
-        <p><input type="email" id="email" nome="email"/>
+        <p><input type="email" id="email" name="email"/>
     </div>
     <div>
         <p><label for="cep">CEP:</label>
