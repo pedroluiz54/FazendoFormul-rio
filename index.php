@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="styles/base.css" >
+  <link rel="stylesheet" type="text/css" href="/base.css" >
   <title>Formulário Teste</title>
 
 </head>
@@ -18,7 +18,7 @@ CADASTRO
     </div>
     <div>
         <p><label for="cpf">CPF:</label>
-        <p><input type="text" id="cpf" name="cpf"/>
+        <p><input type="text" id="cpf" name="cpf" required/>
     </div>
     <div>
         <p><label for="data">Data de nascimento:</label>
@@ -30,7 +30,7 @@ CADASTRO
     </div>
     <div>
         <p><label for="email">E-mail:</label>
-        <p><input type="email" id="email" name="email"/>
+        <p><input type="email" id="email" name="email" required/>
     </div>
     <div>
         <p><label for="cep">CEP:</label>
