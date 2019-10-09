@@ -39,5 +39,17 @@ describe('Test fill in fields', function() {
 
       cy.get('button').click()
 
+
   })
+  it('Testing if the contents fields exists', function() {
+    cy.contains('Pedro Luiz')
+    cy.contains('1543783763')
+    cy.contains('10/02/2002')
+    cy.contains('35999530')
+    cy.contains('pedrolopes15@gmail.com')
+    cy.contains('4024000')
+    cy.contains('rua petunia')
+    cy.contains('302')
+    cy.contains('cx b')
+  });
 })

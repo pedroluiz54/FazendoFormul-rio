@@ -18,7 +18,7 @@ CADASTRO
     </div>
     <div>
         <p><label for="cpf">CPF:</label>
-        <p><input type="text" id="cpf" name="cpf" required/>
+        <p><input type="text" id="cpf" name="cpf" />
     </div>
     <div>
         <p><label for="data">Data de nascimento:</label>
@@ -30,7 +30,7 @@ CADASTRO
     </div>
     <div>
         <p><label for="email">E-mail:</label>
-        <p><input type="email" id="email" name="email" required/>
+        <p><input type="email" id="email" name="email" />
     </div>
     <div>
         <p><label for="cep">CEP:</label>
