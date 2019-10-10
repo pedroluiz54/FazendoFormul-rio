@@ -1,11 +1,11 @@
 describe('My First Test', function() {
   it('Visits the form', function() {
-    cy.visit('localhost:8080')
+    cy.visit('localhost:8090')
   })
 })
 describe('Test fill in fields', function() {
   it('Testing if the field exists', function() {
-    cy.visit('localhost:8080')
+    cy.visit('localhost:8090')
 
 
 // Get an input, type into it and verify that the value has been updated
@@ -19,7 +19,7 @@ describe('Test fill in fields', function() {
     cy.get('#mobile-number')
       .type('35999530')
       .should('have.value', '35999530')
-    
+
     cy.get('#cep')
       .type('4024000')
       .should('have.value', '4024000')

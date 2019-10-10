@@ -1,11 +1,11 @@
 describe('My First Test', function() {
   it('Visits the form', function() {
-    cy.visit('localhost:8080')
+    cy.visit('localhost:8090')
   })
 })
 describe('Test fill in fields', function() {
   it('Visits the form', function() {
-    cy.visit('localhost:8080')
+    cy.visit('localhost:8090')
 
 
 // Get an input, type into it and verify that the value has been updated
