@@ -1,10 +1,10 @@
-describe('My First Test', function() {
+describe('Testing my first form', function() {
   it('Visits the form', function() {
     cy.visit('localhost:8090')
   })
 })
 describe('Test fill in fields', function() {
-  it('Visits the form', function() {
+  it('test to fill in the fields', function() {
     cy.visit('localhost:8090')
 
 
