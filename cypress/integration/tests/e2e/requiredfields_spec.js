@@ -1,10 +1,10 @@
-describe('My First Test', function() {
+describe('Testing form', function() {
   it('Visits the form', function() {
     cy.visit('localhost:8090')
   })
 })
-describe('Test fill in fields', function() {
-  it('Testing if the field exists', function() {
+describe('Testing Required Fields', function() {
+  it('Required fields', function() {
     cy.visit('localhost:8090')
 
 
@@ -16,6 +16,7 @@ describe('Test fill in fields', function() {
     cy.get('#date')
       .type('10/02/2002')
       .should('have.value', '10/02/2002')
+
     cy.get('#mobile-number')
       .type('35999530')
       .should('have.value', '35999530')
@@ -23,12 +24,15 @@ describe('Test fill in fields', function() {
     cy.get('#cep')
       .type('4024000')
       .should('have.value', '4024000')
+
     cy.get('#adress')
       .type('rua petunia')
       .should('have.value', 'rua petunia')
+
     cy.get('#number')
       .type('302')
       .should('have.value', '302')
+
     cy.get('#complement')
       .type('cx b')
       .should('have.value', 'cx b')
